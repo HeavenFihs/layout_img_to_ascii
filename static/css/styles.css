@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 6px;
+}
+
+#ascii-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 6px);
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.character {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+}
